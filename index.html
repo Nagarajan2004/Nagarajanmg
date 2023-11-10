@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nagarajan M G</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#home-nav').click(function(){
+                    $('#render').html('<strong><p style="font-size: 45px;">Welcome.</p> <br><p style="font-size: 34px;">HI, I\'m Nagarajan M G</p><br><p style="font-size: 30px;">Software Developer</p> <br><p style="font-size: 20px; text-indent: 30px;">Ability to create innovative and creative software applications. I\'m passionate about cutting-edge, pixel-perfect, beautiful interfaces and intutively implemented UX.</p></strong>');
+                })
+                $('#about-me-nav').click(function(){
+                    $('#render').html('<strong> <p style="font-size: 40px;">About me:</p> <br><p style="text-indent: 30px; font-size: 20px;">Enthusiastic self-taught software developer currently pursuing a Bachelor\'s degree in Engineering. Proficient in independent and Collaborative software development, with a strong passion for embracing emerging technologies. Eager to contribute expertise and adaptability to drive impactful projects. Eager to leverage a strong foundataion in technology and a proven ability to adapt and learn.</p> <br><p style="text-indent: 30px; font-size: 20px;">I\'m a Bachelor of Engineering student in the Department of Electronics and Communications Engineering at Government College of Engineering. I am from Ramanathapuram, where I completed my schooling. I moved to Thanjavur for my UG degree. </p><br><p style="text-indent: 30px; font-size: 20px;">Rubik\'s Cube is one of my favorite games, and my record for solving a 3x3 Rubik\'s Cube is 1.05 minutes. Another favorite game of mine is chess, and my rating on chess.com is 1304.</p></strong>');
+                })
+                $('#project-nav').click(function(){
+                    $('#render').html('<strong><p style="text-decoration: underline; font-size: 36px;">Industrial Projects:</stprong><br><p style="font-size: 28px;">Crime Vision: Advanced Crime Classification with Deep Learning</p><p style="text-indent: 30px; font-size: 20px;">Crime identification using deep learning is a technique that involves applying deep learning techniques, specifically deep learning, to analyze images and video footage of crime scenes or incidents and identify and classify different types of crimes.</p><br><label for="">project link: </label><a href="#">click here</a></strong>');
+                })
+                $('#contact-nav').click(function(){
+                    $('#render').html('<strong>Address:</strong><address>2nd floor, <br>rahuman apartment <br> Ramanathapuram - 623707</address><br><strong>Email:</strong><a href="mailto:mgnagarajan36@gmail.com?">mgnagarajan36@gmail.com</a><br><br><strong>linkedin</strong><a href="https://www.linkedin.com/in/nagarajan-mg-a62011201/">Nagarajan M G</a>');
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <header class="header-container">
+                <div class="header-container" id="profile">
+                    <div>
+                        <img src="./img/20220112_153318.jpg" alt="Nagarajan M G">
+                    </div>
+                    <p style="margin: 1.3em; padding: 10px;"><b style="font-size: xx-large;">Nagarajan M G </b><br> -Software Developer</p>
+                </div>
+                <nav class="nav-container">
+                    <div class="header-container" id="contact" >
+                        <a href=""><img src="./img/instagram.svg" alt="instagram"></a>
+                        <a href=""><img src="./img/linkedin.svg" alt="linkedin"></a>
+                        <a href=""><img src="./img/github.svg" alt="github"></a>
+                        <a href=""><img src="./img/gmail.svg" alt="email"></a>
+                    </div>
+                    <div class="header-container" id="nav-bar">
+                        <button id="home-nav">Home</button>
+                        <button id="about-me-nav">About me</button>
+                        <button id="project-nav">Project</button>
+                        <button id="contact-nav">Contact</button>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <section style="margin: 2px">
+            <aside>
+                <strong>Projects:</strong><br>
+                    <a href="#">Crime Vision</a>
+                    <p>Advanced crime Classification with deeplearning </p>
+                    <br>
+                    <a href="https://nagarajan2004.github.io/Guessing-Game./">Guessing game</a>
+                    <p>guess the number between 1 - 100, you have a five change to win the game </p>
+                    <br>
+                    <a href="https://nagarajan2004.github.io/weather-checker/">Weather checker</a>
+                    <p>check the weather in your location, also you can check wherever you want</p>
+            </aside>
+            <div id="render">
+                <strong>
+                <p style="font-size: 45px;">Welcome.</p> <br>
+                <p style="font-size: 34px;">HI, I'm Nagarajan M G</p><br>
+                <p style="font-size: 30px;">Software Developer</p> <br>
+                <p style="font-size: 20px; text-indent: 30px;">Ability to create innovative and creative software applications. I'm passionate about cutting-edge, pixel-perfect, beautiful interfaces and intutively implemented UX.</p>
+                </strong>
+            </div>
+        </section>
+        <footer>
+            <div>&copy; Copyrights by Nagarajan M G 2023</div>
+        </footer>
+    </body>
+</html>
